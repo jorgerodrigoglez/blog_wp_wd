@@ -1,0 +1,319 @@
+html {
+	font-size: 62.5%;
+	height: 100%
+}
+
+body {
+	font-family: @font-sans;
+	color: @color-text;
+	.font-size(1.5);
+	.line-height(2.5);
+	padding-bottom: 50px;
+	background-color: @color-primary;
+	
+}
+
+*:focus {
+	outline: none;
+}
+
+
+
+//---------------------------------------------------------------------
+// HEADINGS
+//---------------------------------------------------------------------
+h1 {	
+	font-weight: 600;
+	line-height: 1.4em;	
+}
+
+h2 {
+	.font-size(2.5);
+	font-weight: 900;
+	line-height: 1.4em;
+}
+
+h3 {
+	.font-size(2.0);
+	font-weight: 700;
+	line-height: 1.4em;	
+}
+
+h4 {
+	.font-size(2.0);
+	font-weight: 700;
+	line-height: 1.4em;
+}
+
+h5 {
+	.font-size(1.5);
+	font-weight: 900;
+	line-height: 1.4em;
+}
+
+h6 {
+	.font-size(1.5);
+	font-weight: 700;
+	line-height: 1.4em;
+}
+
+
+
+//---------------------------------------------------------------------
+// ELEMENTS
+//---------------------------------------------------------------------
+p {
+	margin: 25px 0;
+	margin: 2.5rem 0;
+}
+
+a {
+	color: @color-primary;
+	text-decoration: none;
+	.transition;
+	
+	&:hover {
+		text-decoration: underline;
+		//color: darken(@color-primary, 10%);
+	}
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+pre {
+	padding: 30px;
+	background: lighten(@color-text, 55%);
+}
+
+table {
+	width: 100%;
+	
+	th {
+		background: @color-light-grey;
+		padding: 10px;
+		border-right: 1px solid white;
+	}
+	
+	td {
+		border-bottom: solid 1px darken(@color-light-grey, 20%);
+		padding: 10px;
+	}
+}
+
+blockquote {
+	font-family: @font-serif;
+	font-style: italic;
+	font-size: 12px;
+	font-size: 1.2rem;
+	border-left: solid 3px lighten(@color-text, 60%);
+	margin-left: 0;
+	padding-left: 30px;
+	color: lighten(@color-text, 30%);
+}
+
+hr {
+	width: 100%;
+	margin: 40px 0;
+	height: 1px;
+	border: none;
+	border-top: solid 1px lighten(@color-text, 60%);
+	clear: both;
+}
+
+
+
+
+//---------------------------------------------------------------------
+// FLOATS AND COLS
+//---------------------------------------------------------------------
+//.fl { float: left; }
+//.fr { float: right; }
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+.cols {
+	text-align: left;
+	
+	.col3 {
+	    float: left;
+	    width: 30%;
+	    margin-right: 5%;
+	    margin-bottom: 50px;
+	    
+	    &:nth-child(3n) {
+		    margin-right: 0;
+	    }
+	    
+	    &:nth-child(3n+4) {
+		    clear: left;
+	    }
+    }
+    
+    .col3x2 {
+	    float: right;
+	    width: 65%;
+	    clear: right;
+	    margin-bottom: 50px;
+    }
+    
+    .col4 {
+	    float: left;
+	    width: 21.25%;
+	    margin-right: 5%;
+	    margin-bottom: 50px;
+	    
+	    &:nth-child(4n) {
+		    margin-right: 0;
+	    }
+	    
+	    &:nth-child(4n+5) {
+		    clear: left;
+	    }
+    }
+}
+
+.cols:before,
+.cols:after {
+    content: " ";
+    display: table;
+}
+
+.cols:after {
+    clear: both;
+}
+
+.cols {
+    *zoom: 1;
+}
+
+
+
+//---------------------------------------------------------------------
+// WORDPRESS CLASSES
+//---------------------------------------------------------------------
+
+.alignleft {
+	float: left;
+	margin: 0 25px 5px 0;
+	max-width: 50%;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 5px 25px;
+	max-width: 50%;
+}
+
+.aligncenter {
+	display: block;
+	margin: 25px auto;
+}
+
+.wp-caption-text,
+.gallery-caption {
+	margin: 0 0 10px 0;
+	.font-size(1.2);
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+
+.bypostauthor{
+	border: 1px solid @color-light-grey;
+	padding: 20px !important;
+	background-color: lighten( @color-light-grey, 3% ) !important;
+	margin: 10px auto !important;
+}
+
+/*
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 40px 10px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 10px 40px;
+}
+*/
+
+
+
+//---------------------------------------------------------------------
+// LAYOUT
+//---------------------------------------------------------------------
+
+#global-container,
+#main-header {
+	margin: 0 auto;
+	max-width: 1120px;
+}
+
+#global-container {
+	background: white;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.25);
+	box-shadow: 0 2px 5px rgba(0,0,0,.25);
+}
+
+.global-padding {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+#portfolio-content {
+	width: 65%;
+	float: right;
+}
+
+#portfolio-info {
+	float: left;
+	width: 30%;
+}
+
+
+#main-content {
+	width: 65%;
+	float: left;
+	
+	&.full-width {
+		float: none;
+		width: 100%;
+	}
+}
+
+#sidebar {
+	float: right;
+	width: 30%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+/*
+Theme Name: jorgerodrigoglez
+Theme URI: http://www.jorgerodrigogonzalez.info/
+Author: Jorge Rodrigo González
+Author URI: http://www.jorgerodrigogonzalez.info
+Description: Blog de Diseñador Web de Jorge Rodrigo González.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jrg
+*/
+
+/************
+//---------------------------------------------------------------------
+// 01 - IMPORTAR LESS COMPILADO
+//      para estilos específicos del tema
+//---------------------------------------------------------------------
+************/
+
+@import url('less/master.css');

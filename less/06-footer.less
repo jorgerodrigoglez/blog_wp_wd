@@ -1,0 +1,69 @@
+//---------------------------------------------------------------------
+// FOOTER
+//---------------------------------------------------------------------
+
+#main-footer {
+	background: @color-dark;
+	color: white;
+	.font-size(1.3);
+}
+
+#footer-widgets-area {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+	a {
+		color: @color-light-grey;
+	}
+	
+	
+	.widget {
+		border-bottom: 0;
+	}
+	
+	.widget_twitter a,
+	.widget_text a {
+		color: @color-primary;
+	}
+	
+	.widget_twitter {
+		.entry-meta,
+		.intent-meta,
+		.entry-meta a,
+		.intent-meta a {
+			color: lighten(@color-dark, 40%);
+		}
+	}
+}
+
+#footer-bottom-area {
+	background: darken(@color-primary, 15%);
+	
+	.footer-social {
+		.font-size(3);
+		text-align: center;		
+		
+		a {
+			padding-left: 10px;			
+			color: darken(@color-light-grey, 20%);
+			
+			&:hover {
+				color: @color-link;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.ctr{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,217 @@
+@import url('css/normalize.css');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic');
+@import url('http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic');
+@import url('css/font-awesome.min.css');
+.border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: none;
+}
+body#tinymce {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  color: #666;
+  font-size: 15px;
+  /* font-size: ~"@{remValue}rem"; */
+  line-height: 25px;
+  /* line-height: ~"@{remValue}rem"; */
+  padding: 0 20px 20px 20px;
+  max-width: 640px;
+  margin: 0 auto;
+  /*
+    .wp-caption.alignnone {
+      margin: 5px 20px 20px 0;
+    }
+
+    .wp-caption.alignleft {
+      margin: 5px 40px 10px 0;
+    }
+
+    .wp-caption.alignright {
+      margin: 5px 0 10px 40px;
+    }
+    */
+}
+body#tinymce *:focus {
+  outline: none;
+}
+body#tinymce h1 {
+  font-size: 30px;
+  /* font-size: ~"@{remValue}rem"; */
+  font-weight: 900;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+body#tinymce h2 {
+  font-size: 25px;
+  /* font-size: ~"@{remValue}rem"; */
+  font-weight: 900;
+  line-height: 1.4em;
+}
+body#tinymce h3 {
+  font-size: 20px;
+  /* font-size: ~"@{remValue}rem"; */
+  font-weight: 700;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+body#tinymce h4 {
+  font-size: 20px;
+  /* font-size: ~"@{remValue}rem"; */
+  font-weight: 700;
+  line-height: 1.4em;
+}
+body#tinymce h5 {
+  font-size: 15px;
+  /* font-size: ~"@{remValue}rem"; */
+  font-weight: 900;
+  line-height: 1.4em;
+}
+body#tinymce h6 {
+  font-size: 15px;
+  /* font-size: ~"@{remValue}rem"; */
+  font-weight: 700;
+  line-height: 1.4em;
+}
+body#tinymce p {
+  margin: 25px 0;
+}
+body#tinymce a {
+  color: #c4331c;
+  text-decoration: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+body#tinymce a:hover {
+  text-decoration: underline;
+}
+body#tinymce img {
+  display: inline-block;
+  max-width: 100%;
+}
+body#tinymce figure {
+  margin: 0;
+  padding: 0;
+}
+body#tinymce pre {
+  padding: 30px;
+  background: #f2f2f2;
+}
+body#tinymce table {
+  width: 100%;
+}
+body#tinymce table th {
+  background: #f2f2f2;
+  padding: 10px;
+  border-right: 1px solid white;
+}
+body#tinymce table td {
+  border-bottom: solid 1px #bfbfbf;
+  padding: 10px;
+}
+body#tinymce blockquote {
+  font-family: 'Merriweather', Georgia, 'Times new roman', serif;
+  font-style: italic;
+  font-size: 12px;
+  border-left: solid 3px #ffffff;
+  margin-left: 0;
+  padding-left: 30px;
+  color: #b3b3b3;
+}
+body#tinymce hr {
+  width: 100%;
+  margin: 40px 0;
+  height: 1px;
+  border: none;
+  border-top: solid 1px #ffffff;
+  clear: both;
+}
+body#tinymce .alignleft {
+  float: left;
+  margin: 0 25px 5px 0;
+  max-width: 50%;
+}
+body#tinymce .alignright {
+  float: right;
+  margin: 0 0 5px 25px;
+  max-width: 50%;
+}
+body#tinymce .alignnone {
+  display: block;
+  margin: 25px auto;
+}
+body#tinymce .wp-caption-text {
+  margin: 0 0 10px 0;
+  font-size: 12px;
+  /* font-size: ~"@{remValue}rem"; */
+}
+body#tinymce .wp-caption {
+  max-width: 100%;
+}
+body#tinymce .article-intro {
+  font-size: 19px;
+  /* font-size: ~"@{remValue}rem"; */
+  line-height: 28px;
+  /* line-height: ~"@{remValue}rem"; */
+  font-weight: 300;
+  border-top: solid 1px #d9d9d9;
+  border-bottom: solid 1px #d9d9d9;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+body#tinymce .article-intro:first-child {
+  margin-top: 0;
+}
+body#tinymce .more-link {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+body#tinymce ul {
+  margin: 25px 0;
+  padding-left: 0;
+}
+body#tinymce ul li {
+  list-style: none;
+  padding-left: 1.5em;
+  margin: 15px 0;
+}
+body#tinymce ul li::before {
+  content: '\F054';
+  font-family: 'FontAwesome';
+  display: inline-block;
+  margin-left: -1.5em;
+  width: 1.5em;
+  color: #c4331c;
+  font-size: 0.8em;
+}
+body#tinymce ul ul {
+  margin: 0;
+}
+body#tinymce ul ul li::before {
+  content: '\F101';
+  font-size: 1em;
+}
+body#tinymce ul ol {
+  list-style-type: lower-alpha;
+}
+body#tinymce ol {
+  margin: 25px 0;
+}
+body#tinymce ol ul,
+body#tinymce ol ol {
+  margin: 0;
+}
+body#tinymce ol li {
+  margin: 15px 0;
+}
+body#tinymce ol ol {
+  list-style-type: lower-alpha;
+}
