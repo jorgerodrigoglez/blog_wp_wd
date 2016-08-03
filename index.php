@@ -121,7 +121,7 @@
 
 					<!--PAGINACIÓN 1-->
 
-						<?php /*
+						<?php 
 							global $wp_query;
 
 							$big = 999999999; // need an unlikely integer
@@ -132,10 +132,10 @@
 								'current' => max( 1, get_query_var('paged') ),
 								'total' => $wp_query->max_num_pages
 							) );
-						*/ ?>		
+						?>		
 							
 					<!--PAGINACIÓN 2-->
-					<?php if( get_next_posts_link() || get_previous_posts_link()) { ?>
+					<?php /* if( get_next_posts_link() || get_previous_posts_link()) { ?>
 
 							<div class="posts-navigation cf">
 								<nav>
@@ -151,7 +151,7 @@
 								</nav>
 							</div> <!-- /.posts-navigation -->
 					
-					<?php }  ?>
+					<?php } */ ?>
 
 			</div> <!-- /#main-content -->
 

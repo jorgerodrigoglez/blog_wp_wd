@@ -101,7 +101,9 @@
 					
 
 					<?php  
+
 					//Paginación 
+
 						wp_link_pages(array(
 							'before'           => '<div class="posts-navigation">' . __( 'Páginas:', 'jrg' ),
 							'after'            => '</div>',
@@ -113,20 +115,21 @@
 							'previouspagelink' => __( 'Página anterior', 'jrg' ),
 							'pagelink'         => '%',
 							'echo'             => 1							
-							));	?>		
+							));	?>	
+						
 				
 
 				
-					<div class="share-post">
+					<!--<div class="share-post">
 
-						<?php _e('Compartir', 'jrg'); ?>:
-						<!-- facebook -->
+						<?php /*_e('Compartir', 'jrg'); */?>:
+						<!-- facebook --
 						<a class="share-facebook" href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" target="blank"><span class="facebook-logo"><i class="icon-facebook-sign"></i></span> Facebook</a>
 						
-						<!-- twitter -->
+						<!-- twitter --
 						<a class="share-twitter" href="http://twitter.com/home?status=<?php echo str_replace(' ', '%20', get_the_title()); ?>%20-%20<?php the_permalink(); ?>" target="blank"> <span class="twitter-logo"><i class="icon-twitter-sign"></i></span> Twitter</a>
 
-						<!-- google plus -->
+						<!-- google plus --
 						<a class="share-google" href="https://plus.google.com/share?url=<?php the_permalink(); ?>" target="blank"><span class="googleplus-logo"><i class="icon-google-plus-sign"></i></span> Google+</a>
 					</div><!-- end .share-post -->
 				
@@ -134,7 +137,7 @@
 				
 
 				<!--fin the_loop-->
-				<?php endwhile; endif; ?>			
+				<?php endwhile; endif; ?>				
 				
 
 				<!--PAGINACIÓN-->			

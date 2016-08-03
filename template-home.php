@@ -101,12 +101,13 @@
 		
 				<article class="page">
 					
-					<?php the_content(); ?>
+					<?php the_content(); ?>						
 										
-				</article><!-- /.page -->
-		
-			</div> <!-- /#main-content -->
-				
+				</article><!-- /.page -->			
+
+			</div> <!-- /#main-content -->			
+			
+
 			<!--fin the_loop-->
 			<?php endwhile; endif; ?>	
 
@@ -144,13 +145,14 @@
 					
 					wp_reset_postdata();
 
-					?>
+					?>			
 
 				</div> <!-- /.cols -->
 			
 			</div><!-- /#recent-projects -->
 
 		<?php } ?>
+
 
 		</section><!-- end #main-content-area -->
 		
