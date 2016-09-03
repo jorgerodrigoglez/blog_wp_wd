@@ -58,11 +58,72 @@ $copyright = $options['copyright_text'];
 
 					} ?>
 					
-				</div><!-- /.col3 -->
-				
+				</div><!-- /.col3 -->				
 				
 				
 			</section><!-- /#footer-widgets-area -->
+
+		<!--footer social-->
+		<div id="footer-bottom-area" class="global-padding cf">		
+
+		<p class="footer-social">
+
+				<?php if( $twitter ) { ?>
+							<a href="<?php echo esc_url( $twitter ); ?>" title="twitter"><i class="icon-twitter"></i></a>
+				<?php } ?>
+
+				<?php if( $facebook ) { ?>
+							<a href="<?php echo esc_url( $facebook ); ?>" title="facebook"><i class="icon-facebook-sign"></i></a>
+				<?php } ?>
+						
+				<?php if( $linkedin ) { ?>
+							<a href="<?php echo esc_url( $linkedin ); ?>" title="linkedin"><i class="icon-linkedin"></i></a>
+				<?php } ?>
+
+				<?php if( $github ) { ?>
+							<a href="<?php echo esc_url( $github ); ?>" title="github"><i class="icon-github"></i></a>
+				<?php } ?>
+
+				<?php if( $google_plus ) { ?>
+							<a href="<?php echo esc_url( $google_plus ); ?>" title="google+"><i class="icon-google-plus-sign"></i></a>
+				<?php } ?>
+
+				<?php if( $pinterest ) { ?>	
+							<a href="<?php echo esc_url( $pinterest ); ?>" title="pinterest"><i class="icon-pinterest"></i></a>
+				<?php } ?>
+
+				<?php if( $instagram ) { ?>
+							<a href="<?php echo esc_url( $instagram ); ?>" title="instagram"><i class="icon-instagram"></i></a>
+				<?php } ?>
+
+				<!--<?php //if( $stackexchange ) { ?>-->
+							<!--<a href="<?php //echo esc_url( $stackexchange ); ?>" title="stackexchange"><i class="icon-stackexchange"></i></a>-->
+				<!--<?php //} ?>-->
+
+				<!--<?php //if( $tumblr ) { ?>-->	
+							<!--<a href="<?php //echo esc_url( $tumblr ); ?>" title="tumblr"><i class="icon-tumblr-sign"></i></a>-->
+				<!--<?php //} ?>-->
+
+				<!--<?php //if( $dribbble ){ ?>-->
+							<!--<a href="<?php //echo esc_url( $dribbble ); ?>" title="dribbble"><i class="icon-dribbble"></i></a>-->
+				<!--<?php //} ?>-->
+
+				<!--<?php //if( $flickr ) { ?>-->	
+							<!--<a href="<?php //echo esc_url( $flickr ); ?>" title="flickr"><i class="icon-flickr"></i></a>-->
+				<!--<?php //} ?>-->
+
+				<!--<?php //if( $youtube ) { ?>-->	
+							<!--<a href="<?php //echo esc_url( $youtube ); ?>" title="youtube"><i class="icon-youtube"></i></a>-->
+				<!--<?php //} ?>-->
+
+				<!--<?php //if( $rss ) { ?>-->
+							<!--<a href="<?php //echo esc_url( $rss ); ?>" title="rss"><i class="icon-rss"></i></a>-->
+				<!--<?php //} ?>-->
+
+			</p>
+
+
+		</div><!-- /#social-media -->
 			
 			<div id="footer-bottom-area" class="global-padding cf">				
 				
@@ -71,7 +132,8 @@ $copyright = $options['copyright_text'];
 			</div><!-- /#footer-bottom-area -->
 			
 		</footer><!-- /#main-footer -->
-		
+
+
 	</div><!-- /#global-container -->
 
 	<!--WP-FOOTER-->
