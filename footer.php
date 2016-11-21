@@ -12,13 +12,13 @@
 
 $options = get_theme_mod('jrg_custom_settings');
 
-$twitter = $options['twitter'];
-$facebook = $options['facebook'];
-$linkedin = $options['linkedin'];
-$github = $options['github'];
-$google_plus = $options['google_plus'];
-$pinterest = $options['pinterest'];
-$instagram = $options['instagram'];
+//$twitter = $options['twitter'];
+//$facebook = $options['facebook'];
+//$linkedin = $options['linkedin'];
+//$github = $options['github'];
+//$google_plus = $options['google_plus'];
+//$pinterest = $options['pinterest'];
+//$instagram = $options['instagram'];
 
 $copyright = $options['copyright_text'];
 
@@ -64,37 +64,37 @@ $copyright = $options['copyright_text'];
 			</section><!-- /#footer-widgets-area -->
 
 		<!--footer social-->
-		<div id="footer-bottom-area" class="global-padding cf">		
+		<!--<div id="footer-bottom-area" class="global-padding cf">-->
 
-		<p class="footer-social">
+		<!--<p class="footer-social">-->
 
-				<?php if( $twitter ) { ?>
-							<a href="<?php echo esc_url( $twitter ); ?>" title="twitter"><i class="icon-twitter"></i></a>
-				<?php } ?>
+				<!--<?php //if( $twitter ) { ?>-->
+							<!--<a href="<?php //echo esc_url( $twitter ); ?>" title="twitter"><i class="icon-twitter"></i></a>-->
+				<!--<?php } ?>-->
 
-				<?php if( $facebook ) { ?>
-							<a href="<?php echo esc_url( $facebook ); ?>" title="facebook"><i class="icon-facebook-sign"></i></a>
-				<?php } ?>
+				<!--<?php //if( $facebook ) { ?>-->
+							<!--<a href="<?php //echo esc_url( $facebook ); ?>" title="facebook"><i class="icon-facebook-sign"></i></a>-->
+				<!--<?php } ?>-->
 						
-				<?php if( $linkedin ) { ?>
-							<a href="<?php echo esc_url( $linkedin ); ?>" title="linkedin"><i class="icon-linkedin"></i></a>
-				<?php } ?>
+				<!--<?php //if( $linkedin ) { ?>-->
+							<!--<a href="<?php //echo esc_url( $linkedin ); ?>" title="linkedin"><i class="icon-linkedin"></i></a>-->
+				<!--<?php } ?>-->
 
-				<?php if( $github ) { ?>
-							<a href="<?php echo esc_url( $github ); ?>" title="github"><i class="icon-github"></i></a>
-				<?php } ?>
+				<!--<?php //if( $github ) { ?>-->
+							<!--<a href="<?php //echo esc_url( $github ); ?>" title="github"><i class="icon-github"></i></a>-->
+				<!--<?php } ?>-->
 
-				<?php if( $google_plus ) { ?>
-							<a href="<?php echo esc_url( $google_plus ); ?>" title="google+"><i class="icon-google-plus-sign"></i></a>
-				<?php } ?>
+				<!--<?php //if( $google_plus ) { ?>-->
+							<!--<a href="<?php //echo esc_url( $google_plus ); ?>" title="google+"><i class="icon-google-plus-sign"></i></a>-->
+				<!--<?php } ?>-->
 
-				<?php if( $pinterest ) { ?>	
-							<a href="<?php echo esc_url( $pinterest ); ?>" title="pinterest"><i class="icon-pinterest"></i></a>
-				<?php } ?>
+				<!--<?php //if( $pinterest ) { ?>-->
+							<!--<a href="<?php //echo esc_url( $pinterest ); ?>" title="pinterest"><i class="icon-pinterest"></i></a>-->
+				<!--<?php } ?>-->
 
-				<?php if( $instagram ) { ?>
-							<a href="<?php echo esc_url( $instagram ); ?>" title="instagram"><i class="icon-instagram"></i></a>
-				<?php } ?>
+				<!--<?php //if( $instagram ) { ?>-->
+							<!--<a href="<?php //echo esc_url( $instagram ); ?>" title="instagram"><i class="icon-instagram"></i></a>-->
+				<!--<?php } ?>-->
 
 				<!--<?php //if( $stackexchange ) { ?>-->
 							<!--<a href="<?php //echo esc_url( $stackexchange ); ?>" title="stackexchange"><i class="icon-stackexchange"></i></a>-->
@@ -120,10 +120,10 @@ $copyright = $options['copyright_text'];
 							<!--<a href="<?php //echo esc_url( $rss ); ?>" title="rss"><i class="icon-rss"></i></a>-->
 				<!--<?php //} ?>-->
 
-			</p>
+			<!--</p>-->
 
 
-		</div><!-- /#social-media -->
+		<!--</div><!-- /#social-media -->
 			
 			<div id="footer-bottom-area" class="global-padding cf">				
 				
