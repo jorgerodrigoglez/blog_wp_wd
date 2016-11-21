@@ -147,4 +147,5 @@
 
 		</section><!-- end #main-content-area -->
 		
-<?php get_footer(); ?>
+	<!--FOOTER-->		
+	<?php get_footer(); ?>

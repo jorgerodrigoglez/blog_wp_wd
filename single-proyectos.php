@@ -161,7 +161,9 @@
 			<!--FIN DEL LOOP-->
 			<?php endwhile; endif;?>
 
+		<!--FOOTER-->		
+		<?php get_footer(); ?>
+		
 		</section><!-- end #main-content-area -->
 		
 		
-<?php get_footer() ?>

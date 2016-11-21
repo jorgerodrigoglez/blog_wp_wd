@@ -44,14 +44,14 @@
 <header id="main-header">
 
 <?php
-	$options = get_theme_mod('jrg_custom_settings');
-	$twitter = $options['twitter'];
-	$facebook = $options['facebook'];
-	$linkedin = $options['linkedin'];
+	//$options = get_theme_mod('jrg_custom_settings');
+	//$twitter = $options['twitter'];
+	//$facebook = $options['facebook'];
+	//$linkedin = $options['linkedin'];
 	$github = $options['github'];
-	$google_plus = $options['google_plus'];
-	$pinterest = $options['pinterest'];
-	$instagram = $options['instagram'];
+	//$google_plus = $options['google_plus'];
+	//$pinterest = $options['pinterest'];
+	//$instagram = $options['instagram'];
 
 	$copyright = $options['copyright_text'];
 ?>

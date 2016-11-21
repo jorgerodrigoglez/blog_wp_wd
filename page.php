@@ -114,5 +114,7 @@
 			
 		</section><!-- end #main-content-area -->
 
-		<!--FOOTER-->		
-		<?php get_footer(); ?>
+		
+	
+<!--FOOTER-->		
+<?php get_footer(); ?>

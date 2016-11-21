@@ -1436,8 +1436,7 @@ a.btn {
 }
 input[type="submit"]:hover,
 input[type="button"]:hover,
-a.btn:hover {
-  background: #666;
+a.btn:hover { 
   border-color: #666;
   text-decoration: none;
 }
