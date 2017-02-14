@@ -50,10 +50,35 @@
   speak: none;
   color: #ffffff;
 }
-[class^="icon-github"]:before{
-  color: #000000;
+
+
+[class^="icon-twitter"]:before{
+  color: #6e7ad1;
 }
 
+[class^="icon-facebook"]:before{
+  color: #6e7ad1;
+}
+
+[class^="icon-linkedin"]:before{
+  color: #6e7ad1;
+}
+
+[class^="icon-google-plus"]:before{
+  color: #6e7ad1;
+}
+
+[class^="icon-pinterest"]:before{
+  color: #6e7ad1;
+}
+
+[class^="icon-instagram"]:before{
+  color: #6e7ad1;
+}
+
+[class^="icon-github"]:before{
+  color: #6e7ad1;
+}
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;

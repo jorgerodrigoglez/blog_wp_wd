@@ -144,8 +144,8 @@
 			
 			</div> <!-- end #main-content -->
 			
-			<!--FOOTER-->		
-			<?php get_footer(); ?>
 
 		</section><!-- end #main-content-area -->
 		
+		<!--FOOTER-->		
+		<?php get_footer(); ?>
