@@ -299,7 +299,7 @@
 	left: -70px;
 	margin-bottom: 0;
 	background: @color-primary;
-	color: #ffffff;
+	color: @color-dark;
 	display: block;
 
 	.image-cover {
@@ -325,13 +325,13 @@
 	
 	h2 {
 		margin: 0;
-		color: #ffffff;
+		color: @color-dark;
 		z-index: 2;
 		position: relative;
 		margin-bottom: 20px;		
 		.font-size(4);		
 		
-		text-shadow: 0 1px 3px rgba(0,0,0,.5);
+		text-shadow: 0 1px 3px #ffffff;
 	}
 	
 	a {
@@ -520,7 +520,7 @@
 	}
 	
 	.portfolio-filter {
-		background: #68c9e8;
+		background: #f3e1e1;
 		padding: 30px;
 		margin: 40px 0;
 		
@@ -539,22 +539,24 @@
 		
 		li {
 			padding: 0 10px;
-			color: lighten(@color-text, 10%);
+			color: @color-dark;
 			
 			a {
-				color: lighten(@color-text, 10%);
+				color: #bb4c4c;
+				font-weight: bold;
 				
 				&:hover {
-					color: @color-primary;
+					color: lighten(@color-dark, 20%);
 					text-decoration: none;
 				}
 			}
 			
 			&.current-cat {
-				color: @color-primary;
+				color: @color-dark;
 				
 				a {
-					color: @color-primary;
+					color: @color-dark;
+				
 				}
 			}
 		}

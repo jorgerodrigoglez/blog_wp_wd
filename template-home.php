@@ -67,7 +67,7 @@
 				<h2><?php echo nl2br($slogan); ?></h2>
 
 				<?php  if($btn_link) { ?>				
-					<a href="<?php echo esc_url($btn_link); ?>" target="_blank" class="btn btn-big"><?php echo $btn_text; ?></a>
+					<a href="<?php echo esc_url($btn_link); ?>" class="btn btn-big"><?php echo $btn_text; ?></a>
 				<?php } ?>
 
 				<!--Imagen destacada-->
