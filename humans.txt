@@ -1,0 +1,8 @@
+/* humanstxt.org */
+
+/* TEAM */
+
+Name: 		Jorge Rodrigo González
+Site:			http://www.jorgerodrigogonzalez.com
+Site:           http://www.jorgerodrigogonzalez.es
+
